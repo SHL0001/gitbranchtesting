@@ -19,16 +19,16 @@ char op;
 cout<<"Enter first number: ";
 cin>>x;
 cout<<"Enter which opertion you want to perform +,-,*,/";
-cin>>op
+cin>>op;
 cout<<"Enter second number: ";
 cin>>y;
 if(op='+')
 {
- add(x,y);
+cout<< add(x,y);
 }
 else if(op='-')
 {
- sub(x,y);
+cout<< sub(x,y);
 }
 else
 {

@@ -1,6 +1,11 @@
 #include<iostream>
 using namespace std;
 
+double add(double a, double b)
+{
+	double c = a+b;
+	return c;
+}
 int main()
 {
 double x,y;
@@ -9,5 +14,5 @@ cin>>x;
 cout<<"Enter second number: ";
 cin>>y;
 
-return 0
+return 0;
 }

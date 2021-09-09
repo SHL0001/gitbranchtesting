@@ -11,6 +11,16 @@ double sub(double a, double b)
         double c = a-b;
         return c;
 }
+double mul(double a, double b)
+{
+        double c = a*b;
+        return c;
+}
+double div(double a, double b)
+{
+        double c = a/b;
+        return c;
+}
 
 int main()
 {
@@ -22,13 +32,21 @@ cout<<"Enter which opertion you want to perform +,-,*,/";
 cin>>op;
 cout<<"Enter second number: ";
 cin>>y;
-if(op='+')
+if(op ='+')
 {
 cout<< add(x,y);
 }
-else if(op='-')
+else if(op ='-')
 {
 cout<< sub(x,y);
+}
+else if(op ='*')
+{
+cout<< mul(x,y);
+}
+else if(op ='/')
+{
+cout<< div(x,y);
 }
 else
 {
